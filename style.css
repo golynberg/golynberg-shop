@@ -1,0 +1,77 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+    background-color: rgb(18,18,29);
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar_brand{
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(49, 184, 224, 0.88);
+}
+.navbar_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.container .navbar_menu{
+    list-style-type: none;
+    margin-top: 3.25vh;
+    font-size: 17px;
+    height: 100%;
+}
+.navbar_menu li{
+    display: inline-block;
+    padding: 0px 5px;
+    cursor: pointer;
+
+}
+.navbar_wrap .navbar_menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(222, 226, 227, .8);
+    padding-inline: 6vh;
+    padding-top: 3.5vh;
+    font-size: 2.1vh;
+    margin-right: -10vh;
+}
+.navbar_wrap .navbar_menu li a:hover{
+    color: rgb(235, 232, 232);
+    transform: scale(1.02);
+    transition: .1s;
+}
+.navbar_auth{
+    display: inline-block;
+    flex-flow: row nowrap;
+    padding: 20px;
+    margin-top: 3vh;
+}
+.navbar_auth li{
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.navbar_auth li a{
+    display: inline-block;
+    font-size: 20px ;
+    text-decoration: none;
+    background-color:rgba(44, 42, 136, 0.2);
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px 30px;
+    margin-inline: 70px;
+    margin-right: -40px;
+}
